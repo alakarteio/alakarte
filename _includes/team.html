@@ -1,6 +1,6 @@
 <div class="grid" data-column="2">
   {% for member in site.members %}
-  <div class="column {{member.color}}">
+  <div class="column {{member.color}}" style="cursor:pointer" onclick="window.location='https://work-with-us.alakarte.io/{{member.firstname}}'">
     <div class="member">
       <div class="avatar">
         <img src="{{member.picture}}" />
