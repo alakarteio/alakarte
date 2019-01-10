@@ -1,15 +1,13 @@
-/* sweetScroll load */;
 document.addEventListener("DOMContentLoaded", function () {
-
-  console.log('oui')
-  var links = document.getElementsByTagName("a")
-  for (var i = 0; i < links.length; i += 1) {
-    links[i].addEventListener("click", function (event) {
+  var memberLinks = document.querySelectorAll('.member a')
+  for (var i = 0; i < memberLinks.length; i += 1) {
+    memberLinks[i].addEventListener("click", function (event) {
       event.stopPropagation();
     });
   }
 
-  var sweetScroll = new SweetScroll({/* some options */});
+  // load sweetscroll
+  new SweetScroll({/* some options */});
 
   /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
   particlesJS('particles-js', {
