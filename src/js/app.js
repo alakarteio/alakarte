@@ -1,6 +1,13 @@
-/* sweetScroll load */
 document.addEventListener("DOMContentLoaded", function () {
-  const sweetScroll = new SweetScroll({/* some options */});
+  var memberLinks = document.querySelectorAll('.member a')
+  for (var i = 0; i < memberLinks.length; i += 1) {
+    memberLinks[i].addEventListener("click", function (event) {
+      event.stopPropagation();
+    });
+  }
+
+  // load sweetscroll
+  new SweetScroll({/* some options */});
 
   /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
   particlesJS('particles-js', {
