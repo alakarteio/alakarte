@@ -1,19 +1,19 @@
 # Site settings
-title: alakarteio
+title: rakun
 description: A blog about lorem ipsum dolor sit amet
-# baseurl: "/alakarte" # the subpath of your site, e.g. /blog
+# baseurl: "/rakun" # the subpath of your site, e.g. /blog
 # url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
-username: alakarteio
+username: rakun
 user_description: Bicycle rights irony actually neutra typewriter lyft. Man bun taxidermy put a bird on it, umami yr ramps pop-up ugh bushwick chia lo-fi. Occupy bitters pour-over snackwave you probably haven't heard of them small batch. Cornhole mustache man bun letterpress echo park VHS.
 user_title: à deux, c’est mieux !
 
 company: 
-  twitter: alakarteio
-  github: alakarteio
+  twitter: RakunTeam
+  github: rakunteam
   linkedin: alakarteio
-  email: contact@alakarte.io
+  email: contact@rakun.team
 
 members:
   - fabien:
@@ -25,7 +25,7 @@ members:
     twitter: fabienjuif
     github: fabienjuif
     linkedin: fabienjuif
-    email: fabien.juif@alakarte.io
+    email: fabien.juif@rakun.team
     picture: "https://secure.gravatar.com/avatar/963e047fe4332aaca53a6e5c6d275a1f?s=500"
   - guillaume:
     color: blue
@@ -36,7 +36,7 @@ members:
     twitter: guillaumcrespel
     github: guillaumecrespel
     linkedin: guillaume-crespel
-    email: guillaume.crespel@alakarte.io
+    email: guillaume.crespel@rakun.team
     picture: "https://secure.gravatar.com/avatar/5e688e29837dd60ffc5d497b915ee5f3?s=500"
 
 
